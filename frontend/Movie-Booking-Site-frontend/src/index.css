@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .noto-sans-bold-title {
+    @apply font-noto-sans font-semibold;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .noto-sans-light-text {
+    @apply font-noto-sans font-light;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .noto-sans-regular-text {
+    @apply font-noto-sans font-normal;
+    font-variation-settings: "wdth" 100;
+  }
+}
